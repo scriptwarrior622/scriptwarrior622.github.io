@@ -715,6 +715,7 @@ p {
   position: relative; }
   .header-image::before {
     position: absolute;
+    display: none;
     content: '';
     width: 100%;
     height: 82%;
@@ -729,6 +730,7 @@ p {
     transform: translateY(-50%); }
   .header-image::after {
     position: absolute;
+    display: none;
     content: '';
     width: 100%;
     height: 20px;
@@ -893,7 +895,7 @@ p {
       padding: 15px; } }
   .single-service .service-icon i {
     font-size: 60px;
-    color: #754ef9;
+    color: #000;
     line-height: 56px; }
   .single-service .service-content {
     margin-top: 11px; }
